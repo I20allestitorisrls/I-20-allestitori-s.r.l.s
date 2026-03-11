@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allestimenti Fieristici & Ristrutturazioni</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f7f7f7;
+    }
+    header {
+      background: linear-gradient(135deg, #1f2937, #374151);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 15px;
+    }
+    header p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      font-size: 1.1rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #f59e0b;
+      color: white;
+      padding: 12px 22px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    nav {
+      background: #111827;
+      padding: 14px 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #111827;
+      text-align: center;
+    }
+    .intro {
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+      color: #444;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+    .card h3 {
+      margin-bottom: 12px;
+      color: #1f2937;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 30px;
+    }
+    .photo {
+      background: #e5e7eb;
+      height: 180px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6b7280;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+    }
+    .contact-box {
+      background: white;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      max-width: 700px;
+      margin: 30px auto 0;
+      text-align: center;
+    }
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 25px 20px;
+      margin-top: 30px;
+    }
+    .small {
+      font-size: 0.95rem;
+      color: #d1d5db;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Allestimenti Fieristici & Ristrutturazioni</h1>
+    <p>
+      Realizziamo montaggio e smontaggio stand fieristici, supporto tecnico in fiera,
+      ristrutturazioni e rinnovo appartamenti con professionalità, precisione e attenzione ai dettagli.
+    </p>
+    <a href="#contatti" class="btn">Richiedi un preventivo</a>
+  </header>
+  <nav>
+    <a href="#chi-siamo">Chi siamo</a>
+    <a href="#servizi">Servizi</a>
+    <a href="#lavori">I nostri lavori</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+  <section id="chi-siamo">
+    <h2>Chi siamo</h2>
+    <p class="intro">
+      Siamo un’azienda specializzata negli allestimenti fieristici e nei lavori di ristrutturazione.
+      Offriamo soluzioni affidabili per aziende e privati, trasformando ogni progetto in uno spazio
+      funzionale, curato e di grande impatto visivo. L’esperienza sul campo, la serietà e la qualità
+      del lavoro sono i valori che ci guidano ogni giorno.
+    </p>
+  </section>
+  <section id="servizi">
+    <h2>I nostri servizi</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Allestimenti fieristici</h3>
+        <p>
+          Montaggio e smontaggio stand, gestione degli spazi espositivi e supporto operativo
+          per fiere, eventi e manifestazioni professionali.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Supporto tecnico in fiera</h3>
+        <p>
+          Interventi rapidi, organizzazione del lavoro e assistenza tecnica per garantire tempi
+          precisi e un risultato curato in ogni dettaglio.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Ristrutturazioni appartamenti</h3>
+        <p>
+          Rinnoviamo ambienti interni con lavori mirati a migliorare estetica, funzionalità,
+          comfort e valore dell’immobile.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Rinnovo ambienti</h3>
+        <p>
+          Soluzioni pratiche e materiali di qualità per dare nuova vita ad appartamenti,
+          locali e spazi abitativi con risultati moderni e duraturi.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="lavori">
+    <h2>I nostri lavori</h2>
+    <p class="intro">
+      In questa sezione puoi mostrare foto reali dei tuoi lavori: stand montati in fiera,
+      smontaggi, ristrutturazioni, cucine, bagni, salotti e ambienti rinnovati.
+    </p>
+    <div class="gallery">
+      <div class="photo">Foto stand fieristico 1</div>
+      <div class="photo">Foto stand fieristico 2</div>
+      <div class="photo">Foto ristrutturazione appartamento</div>
+      <div class="photo">Prima / Dopo rinnovo ambiente</div>
+    </div>
+  </section>
+  <section id="contatti">
+    <h2>Contatti</h2>
+    <div class="contact-box">
+      <p><strong>Telefono:</strong> +39 000 000 0000</p>
+      <p><strong>Email:</strong> tuaemail@email.com</p>
+      <p><strong>Zona operativa:</strong> Verona e dintorni</p>
+      <br />
+      <p>
+        Contattaci per informazioni, collaborazioni o per richiedere un preventivo personalizzato.
+      </p>
+    </div>
+  </section>
+  <footer>
+    <p><strong>Allestimenti Fieristici & Ristrutturazioni</strong></p>
+    <p class="small">Professionalità, qualità e affidabilità per ogni progetto.</p>
+  </footer>
+</body>
+</html>
